@@ -1,0 +1,22 @@
+# secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# generated indexes
+vectorstore/*
+!vectorstore/.gitkeep
+
+# local datasets
+data/jobs/*.csv
+data/resumes/*
+!data/resumes/.gitkeep
+
+# results
+results/
+*.faiss
+*.pkl
